@@ -12,6 +12,9 @@ variable resource_group {
     description = "The name of the resource group"
 }
 
+variable "generation" {
+    default = 2
+}
 
 ##############################################################################
 # A Unique string used to differentiate cloud resources running in a multi-

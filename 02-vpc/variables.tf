@@ -50,3 +50,11 @@ variable labuser_access {
 variable groups_ws_id {
   description = "01-groups workspace id"
 }
+
+##############################################################################
+# VPC GEN 2
+##############################################################################
+
+variable "generation" {
+    default = 2
+}
